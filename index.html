@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Course Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course Eligibility Checker</h1>
+        <p>Check your Course Eligibility here.</p>
+        <div class="main">
+            <form id = "ce-form">
+                <label>Name:</label>
+                <input type="text" name="name" id="inpt-name" placeholder="enter name"><br>
+
+                <label>Email:</label>
+                <input type="email" name="email" id="inpt-email" placeholder="enter email"><br>
+
+                <label>Branch:</label>
+                <select>
+                    <option>CS</option>
+                    <option>IT</option>
+                    <option>AI</option>
+                    <option>AIML</option>
+                    <option>DS</option>
+                    <option>Cyber Security</option>
+                    <option>Entc</option>
+                    <option>Electrical</option>
+                    <option>Mechanical</option>
+                    <option>Civil</option>
+                </select>
+
+                <label>Year:</label>
+                <select>
+                    <option>FY</option>
+                    <option>SY</option>
+                    <option>TY</option>
+                    <option>Btech</option>
+                </select>
+
+                <label>Semester:</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+
+                <label>Graduation Year:</label>
+                <select>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                </select><br>
+
+                <label>Divison:</label>
+                <input type="text" id="inpt-div" placeholder="enter division">
+
+                <label id="lbl-rollno">Roll No:</label>
+                <input type="text" id="inpt-rollno" placeholder="enter roll no"><br>
+
+                <label>Registration No:</label>
+                <input type="text" id="inpt-regno" placeholder="enter registration no">
+
+                <label id="lbl-atd">Attendence:</label>
+                <input type="text" id="inpt-atd" placeholder="enter attendence"><br>
+
+                <button value="submit">Check</button>
+            </form>
+            <div class="show"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
