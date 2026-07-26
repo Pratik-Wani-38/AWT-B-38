@@ -6,6 +6,6 @@
 <ol>
   <li>Eligible for Course</li><br>
   <img src="output1.png" height="600px" width="1200px" alt="output1"><br><br>
-  <li>Eligible for Course</li><br>
+  <li>Not Eligible for Course</li><br>
   <img src="output2.png" height="600px" width="1200px" alt="output2">
 </ol>
