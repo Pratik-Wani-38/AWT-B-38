@@ -4,8 +4,8 @@
 <p>It is a Personalized Course Eligibilty Checker made using HTML, CSS, and JavaScript.</p>
 <p><b>Outputs:</b></p>
 <ol>
-  <li>Eligible for Course</li>
-  <img src="output1.png" height="600px" width="1200px" alt="output1"><br>
-  <li>Eligible for Course</li>
+  <li>Eligible for Course</li><br>
+  <img src="output1.png" height="600px" width="1200px" alt="output1"><br><br>
+  <li>Eligible for Course</li><br>
   <img src="output2.png" height="600px" width="1200px" alt="output2">
 </ol>
